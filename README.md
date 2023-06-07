@@ -53,7 +53,7 @@ Rename the first target as Home by pressing F2. Alternatively, select ToolsRenam
 
 
 ### PROGRAM 
- 
+ ```
 import sys
 import os
 sys.path.append(os.path.abspath(r"""E:/RoboDK/Posts/""")) # temporarily add path to POSTS folder
@@ -97,7 +97,7 @@ r.ProgStart(r"""pick_B""")
 r.MoveJ(p(25.497,-57.3097,200.657,-90,-0.000220614,180),[32.8573,-74.9724,-134.453,-60.575,89.9999,32.8573],[0,1,0])
 
 raise Exception("""Your license does not allow generating programs with more than 50 lines of code. Upgrade your license to unlock this feature.""")
-
+```
 SIMULATION:
 ![image](https://github.com/VismayaNair/Experiment-02--Design-simulate-an-environment-for-pick-place-operations-with-Industrial-Robot-us/assets/93427210/56e2809b-1c7c-49c2-a53e-45260704367f)
 
